@@ -1,5 +1,138 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* header style here */
+
+.header-parent{
+ box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.05);
+ background-color:#fff;
+}
+
+
+.nav-container{
+    max-width:1300px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 20px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.text-logo-content{
+   display: flex;
+   align-items: center;
+   
+}
+
+
+.text-logo-content img{
+    width:50px;
+    margin-right:20px;
+}
+
+.text-logo-content p{
+  font-size:2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.primary-color{
+    color:#FF42A5;
+}
+
+.header-item-content{
+  display: flex;
+  align-items: center;
+  
+}
+
+li{
+    list-style: none;
+    font-size: 17px;
+    color:#3c354f;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.item-style{
+
+background-color:rgba(11,2,35,0.10);
+border-radius: 8px;
+padding: 10px 25px;
+}
+
+.fa-youtube{
+    color: red;
+    padding-right: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Multiple Responsive style Use */
+
+
+/*Mobile Device for Media Query and Responsive Style */
+
+
+@media screen and (max-width: 425px) {
+    
+    .nav-container,
+     .header-item-content{
+
+        flex-direction: column;
+    }
+
+    .header-item-content{
+       
+      margin-top: 30px;
+    }
+    li{
+      margin-top: 20px;
+    }
 }
