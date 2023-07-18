@@ -167,12 +167,63 @@ li {
 
 
 
+/* Game Collection section style related"*/
 
 
+.parent-container{
+
+  max-width: 1300px;
+  margin: 0px auto;
+  margin-top: 100px;
+  min-height: 400px;
+}
+.game-title{
+  text-align: center;
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 10px;
+}
+
+.primary-colors{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.game-description{
+  color: #534C64;
+  font-size: 18px;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.card{
+  min-height: 400px;
+  
+}
+
+.card img{
+  width: 100%;
+  display:block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.card-description{
+  margin-top: 20px;
+  color: #534C64;
+  font-size: 17px;
+}
 
 
+.collection-game-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
 
-
+}
 
 
 
@@ -234,6 +285,16 @@ li {
     flex-direction: column-reverse;
   }
 
+  .collection-game-container{
+    
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    padding: 15px;
+  
+  }
+
+
+
   .banner-content {
     width: 100%;
     padding-top: 70px;
@@ -264,3 +325,12 @@ li {
     margin-top: 20px;
   }
 }
+
+
+
+
+
+
+
+
+
