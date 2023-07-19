@@ -211,6 +211,52 @@ li {
   margin-top: 50px;
 }
 
+/* play button show style */
+/* .containersed{
+  position: relative;
+  height: 100%;
+}
+
+.containersed img{
+  width: 100%;
+  height: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top:12%;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background-color: black;
+  cursor: pointer;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-family: verdana;
+  text-align: center;
+}
+
+.containersed:hover .overlay{
+
+  opacity: 0.8;
+} */
+
+.containersed:hover img{
+
+     background-color: #0B0223;
+   
+}
+/* play button show style */
+
+
+
 .card-description{
   margin-top: 20px;
   color: #534C64;
@@ -450,6 +496,138 @@ footer{
 
 
 
+/* Tabled for Media query use  start*/
+
+@media screen and (min-width:425px) and (max-width:980px) {
+
+  .nav-container,
+  .header-item-content,.installs-container {
+
+    flex-direction: column;
+  }
+
+/*footer section */
+.aligments{
+  text-align: center;
+  padding-top: 100px;
+}
+ .footer-items{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+  padding:10px;
+  gap:0px
+ 
+ }
+
+ .footer-items li{
+  font-size: 11px;
+ }
+ .social-icon{
+  padding-top: 100px;
+ }
+
+ .footer-privacy{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+  padding:10px
+ }
+
+ .footer-privacy li{
+  font-size: 11px;
+ }
+ .footer-paragraph{
+  font-size: 11px;
+ }
+
+
+.installs-content h3{
+
+  font-size: 40px;
+  padding: 0px;
+  text-align: center;
+}
+
+.installs-content{
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.installs-content p{
+  padding: 0px;
+  padding-top: 10px;
+  margin-right: none;
+  margin: 0 auto;
+}
+
+.installs-picture{
+  width: 100%;
+  gap: 0px;
+}
+
+.installs-picture img{
+  
+  gap: 0px;
+}
+
+
+
+  .banner-container {
+
+    flex-direction: column-reverse;
+  }
+
+  .collection-game-container{
+    
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 15px;
+  
+  }
+
+   .card p{
+
+     font-size: 13px;
+     
+   }
+  
+
+  .banner-content {
+    width: 100%;
+    padding-top: 70px;
+    justify-content: center;
+  }
+   
+   .banner-content{
+    
+  background-image:url('../images/Group\ 14.png'),linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%,
+  rgba(241, 68, 174, 0.03) 100%);
+  background-blend-mode: overlay;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+   background-size:100%;
+ 
+   }
+
+  .banner-photo {
+    width: 100%;
+  }
+
+  .header-item-content {
+
+    margin-top: 30px;
+  }
+
+  li {
+    margin-top: 20px;
+  }
+}
+/* Tabled Device for Media query use end */
+
+
+
 
 
 
@@ -630,6 +808,8 @@ footer{
     margin-top: 20px;
   }
 }
+
+
 
 
 
