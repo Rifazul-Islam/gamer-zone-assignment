@@ -212,22 +212,28 @@ li {
 }
 
 /* play button show style */
-/* .containersed{
+
+.fa-solid{
+  font-size: 50px;
+}
+.containersed{
   position: relative;
   height: 100%;
 }
 
 .containersed img{
   width: 100%;
-  height: 100%;
 }
 
+.content p{
+ color: #FF42A5;
+}
 .overlay{
   position: absolute;
-  top:12%;
+  top:10%;
   left: 0;
   right: 0;
-  bottom: 10%;
+  bottom: 13%;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
   background-color: black;
@@ -246,13 +252,9 @@ li {
 .containersed:hover .overlay{
 
   opacity: 0.8;
-} */
+} 
 
-.containersed:hover img{
 
-     background-color: #0B0223;
-   
-}
 /* play button show style */
 
 
@@ -496,7 +498,11 @@ footer{
 
 
 
-/* Tabled for Media query use  start*/
+
+
+
+
+/* Tablet for Media query use  start*/
 
 @media screen and (min-width:425px) and (max-width:980px) {
 
