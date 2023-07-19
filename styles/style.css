@@ -52,6 +52,7 @@
 .header-item-content {
   display: flex;
   align-items: center;
+  
 
 }
 
@@ -81,8 +82,6 @@ li {
   max-width: 1300px;
   margin: 0px auto;
   display: flex;
-
-
 
 }
 
@@ -403,7 +402,7 @@ li {
 footer {
   background-color: #0B0223;
   color: #fff;
-  height: 600px;
+ padding-bottom: 20px;
 }
 
 .footer-container {
@@ -427,7 +426,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 100px;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 
