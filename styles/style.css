@@ -226,12 +226,79 @@ li {
 }
 
 
+/* Installs section style here */
+
+.installs-container{
+
+  max-width: 1300px;
+  margin: 0px auto;
+  margin-top: 100px;
+  min-height: 400px;
+  margin-bottom: 100px;
+ 
+ 
+  display: flex;
+
+  gap: 50px;
+}
+
+.installs-content{
+   
+    width: 50%;
+    padding-top: 100px;
+    padding-right: 50px;
+  
+    
+    
+}
+
+.installs-content h3{
+    font-size: 40px;
+    font-weight: 700;
+     text-align: right;
+}
+
+.installs-content p{
+  color: #534C64;
+  text-align: right;
+  font-size:18px;
+  font-weight: 400;
+  width: 350px;
+ margin: 0px auto;
+ margin-right: 0px;
+ padding-top: 15px;
+}
 
 
 
+.installs-picture{
+  width: 50%;
+  position: relative;
+
+}
+
+.installs-picture img{
+  width: 70%;
+ 
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
 
 
+.cart img{
+  width: 100%;
+  border: 2px solid gainsboro;
+}
 
+.cart{
+  width: 40%;
+  position: absolute;
+  top: 45%;
+}
+
+
+/* multiple game Style related */
 
 
 
@@ -275,10 +342,43 @@ li {
 @media screen and (max-width: 425px) {
 
   .nav-container,
-  .header-item-content {
+  .header-item-content,.installs-container {
 
     flex-direction: column;
   }
+
+/* cart */
+
+.installs-content h3{
+
+  font-size: 40px;
+  padding: 0px;
+  text-align: center;
+}
+
+.installs-content{
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.installs-content p{
+  padding: 0px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.installs-picture{
+  width: 100%;
+  gap: 0px;
+}
+
+.installs-picture img{
+  
+  gap: 0px;
+}
+
+
 
   .banner-container {
 
@@ -293,7 +393,12 @@ li {
   
   }
 
+   .card p{
 
+     font-size: 13px;
+     
+   }
+  
 
   .banner-content {
     width: 100%;
